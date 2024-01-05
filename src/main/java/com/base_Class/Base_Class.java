@@ -35,7 +35,7 @@ public static WebDriver driver;
 			driver = new ChromeDriver();
 			
 			}
-		else if (type.equalsIgnoreCase("edge")) {
+		else if (type.equalsIgnoreCase("edge")) { 
 			
 
 			System.setProperty("webdriver.edge.driver",
